@@ -11,9 +11,22 @@ let netice;
     if (number1 > number2 && number3, islem == "+") {
         netice = (`number1 is greater than number2 and number3 and sum of given number is:${number1}+${number2}+${number3} = ${number1 + number2 + number3}`);
     } else if(number1 > number2 && number3, islem == "-") {
-        netice = (`number1 is greater than number2 and number3 and subtract of given number is:${number1}+${number2}+${number3} = ${number1 - number2 - number3}`);
+        netice = (`number1 is greater than number2 and number3 and subtract of given number is:${number1}-${number2}-${number3} = ${number1 - number2 - number3}`);
     } else if(number1 > number2 && number3, islem == "*") {
-        netice = (`number1 is greater than number2 and number3 and subtract of given number is:${number1}+${number2}+${number3} = ${number1 - number2 - number3}`);
+        netice = (`number1 is greater than number2 and number3 and subtract of given number is:${number1}*${number2}*${number3} = ${number1 * number2 * number3}`);
+    } else if (number2 > number1 && number3, islem == "+") {
+        netice = (`number2 is greater than number1 and number3 and sum of given number is:${number2}+${number1}+${number3} = ${number1 + number2 + number3}`);
+    } else if(number2 > number1 && number3, islem == "-") {
+        netice = (`number2 is greater than number1 and number3 and subtract of given number is:${number1}-${number2}-${number3} = ${number1 - number2 - number3}`);
+    } else if(number2 > number1 && number3, islem == "*") {
+        netice = (`number2 is greater than number1 and number3 and subtract of given number is:${number1}*${number2}*${number3} = ${number1 * number2 * number3}`);
+    } else if (number3 > number2 && number1, islem == "+") {
+        netice = (`number3 is greater than number2 and number1 and sum of given number is:${number1}+${number2}+${number3} = ${number1 + number2 + number3}`);
+    } else if(number3 > number2 && number1, islem == "-") {
+        netice = (`number3 is greater than number2 and number1 and subtract of given number is:${number1}-${number2}-${number3} = ${number1 - number2 - number3}`);
+    } else if(number3 > number2 && number1, islem == "*") {
+        netice = (`number3 is greater than number2 and number1 and subtract of given number is:${number1}*${number2}*${number3} = ${number1 * number2 * number3}`);
     } 
+    
 console.log(netice);
 
