@@ -11,3 +11,17 @@ console.log(buyukler);
 //*  %10 artış yapın ve bu değerleri konsola tek tek bastırınız.
 
 const artıs = fiyatlar.filter((kfiyat) => kfiyat < 110).map((afiyat) => (afiyat*1.1).toFixed(2));
+
+
+const maaslar = [3000, 5000, 4000, 6000, 6500];
+
+//* maaslar 4000'den düsük olanlara %50 zam yapmak istiyoruz
+//* ve bunu ayri dizi olarak saklamak istiyoruz.
+
+//* Maasi 4000 'den büyük olanlara %25 zam yaparak sonuçlari yazdiralim.
+
+const zam = maaslar.filter((dusuk) => dusuk <= 4000).map((yzam) => yzam*1.5);
+console.log(zam); //*  [4500, 6000]
+
+const zam2 = maaslar.filter((yuksek) => yuksek > 4000).map((xzam) => xzam*1.25);
+console.log(zam2);//*[6250, 7500, 8125]
