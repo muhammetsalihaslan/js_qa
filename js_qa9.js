@@ -42,3 +42,18 @@ do {
     number = parseInt(prompt('Please Enter a number'))
 } while(number > 0);
 
+//*******break statement********/
+
+let number1;
+let sum1 = 0;
+
+while(true) {
+    number1 = parseInt(prompt('Enter a number'));
+    if(number1 < 0){
+        break;
+    }
+
+    sum1 += number1
+}
+console.log(`the sum is ${sum}`);
+
