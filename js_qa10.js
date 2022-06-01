@@ -28,7 +28,7 @@ let sum1 = 0;
 while(number1 >= 0){
     sum1 += number1;
 
-    number1 = parseInt(prompt('please enter a number'))
+    number1 = parseInt(prompt('please enter a number'));
 
     if (isNaN(number1)){
         console.log("you entered a string");
