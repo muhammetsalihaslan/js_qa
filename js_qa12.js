@@ -11,8 +11,8 @@ console.log(alanDaire(`${r}`));
 const dogumTarihi = parseInt(prompt("please enter birth date"))
 
 const yas = (dogumTarihi) => new Date().getFullYear() - dogumTarihi
-,
-console.log(yas(`${dogumTarihi}`));//*yas(`${dogumTarihi}`) şelinde de yazılabilir
+
+console.log(yas(`${dogumTarihi}`));  //*yas(`${dogumTarihi}`) şelinde de yazılabilir
 
 
 
