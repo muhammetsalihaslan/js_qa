@@ -23,4 +23,8 @@ alan1(`${taban}`, `${yukseklik}`)
 
 //! thirth Solution with Arrow function;
 
+const taban = parseInt(prompt("enter a base"));
+const yukseklik = parseInt(prompt("enter a height"));
 
+const alan2 = (taban, yukseklik) => taban*yukseklik/2;
+alan2(`${taban}`, `${yukseklik}`)
