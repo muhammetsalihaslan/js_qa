@@ -1,6 +1,6 @@
 //? Write a JavaScript program to rotate the string 'w3resource' in right direction by periodically removing one letter from the end of the string and attaching it to the front.
 
-let words = "w3resource"
+let words = "balbasar"
 
 function reverserOfWords(str) {
     let splitString = str.split(""); //! inside of split parentheses i can split any number, words or anything of the string
@@ -9,4 +9,4 @@ function reverserOfWords(str) {
     return newArray;
 }
 
-reverserOfWords("w3resource");
+reverserOfWords(words);
