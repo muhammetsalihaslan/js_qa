@@ -18,6 +18,6 @@ leapYear(givenYear);
 function leapyear(year)
 {
 return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
-} => //! if year divisible by 100  and also year divisible by 400 however if year not divisible by 100 in this case for leap year, year must be divisible by 4 => 
+}  //! if year divisible by 100  and also year divisible by 400 however if year not divisible by 100 in this case for leap year, year must be divisible by 4 => 
       //**this is explanation of ternary function
 
