@@ -1,6 +1,6 @@
 //? Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50.
 
-//! return statement only used inside function;
+//! return statement only used inside function; you must write a function
 
 const n1 = parseInt(prompt("enter a number for n1"));
 const n2 = parseInt(prompt("enter a number for n2"));
